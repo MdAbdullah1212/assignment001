@@ -1,0 +1,259 @@
+/* Google font link */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+
+.btn-primary {
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.text-color {
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 34px
+}
+.text-center{
+    text-align: center;
+}
+/* header styles */
+
+.header {
+    background-image: url("../images/Assets/Hero-bg.png");
+    max-width: 1440px;
+    height: 698px;
+    justify-items: center;
+    margin: 0 auto;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 151px;
+}
+
+.logo{
+    font-size: 34px;
+    width: 99px;
+    height: 51px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.headline{
+    width: 905px;
+    height: 237px;
+    text-align: center;
+    margin-top: 37px;
+}
+.headline-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+/* Main Style */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+    /* live section styles */
+.live-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 328px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.live-action-title{
+    width: 517px;
+    height: 203px;
+}
+.live-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin: 0;
+    padding: 0;
+}
+.live-description{
+    font-size: 24px;
+    color: #252432;
+}
+.live-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* user style */
+.user-productivity{
+    background-color: #4d47ff24;
+    max-width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    padding: 80px 50px;
+    margin-bottom: 200px;
+}
+.user-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.user-acivity{
+    display: flex;
+    justify-content: space-around;
+}
+.actvity-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0px;
+    padding: 0px;
+}
+.activity-description{
+    font-size: 20px;
+    color: hsla(0, 0%, 0%, 0.50);
+}
+
+/* feedback styles */
+.feedback{
+    max-width: 1140px;
+    margin-bottom: 200px;
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.feedback-card{
+    background-color: #ffffff;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 266px;
+    padding: 24px;
+    border-radius: 14px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+.ul li img{
+    padding: 0;
+    margin: 0;
+}
+.card-review{
+    display: flex;
+    align-items: center;
+}
+.reviewer-image{
+    margin-right: 20px;
+}
+.name, .date{
+    margin: 0;
+    padding: 0;
+}
+.date{
+    color: #B3B3B3;
+}
+
+/* focus-section style */
+.focus-section{
+    background-color: linen;
+    border-radius: 14px;
+    padding: 71px 150px;
+    max-width: 1140px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    padding-bottom:10px;
+}
+.focus-description{
+    margin: 0;
+    padding-bottom:20px;
+    color: #00000076;
+}
+.focus-section img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+/* get-touch styles */
+.get-touch{
+    width: 1140px;
+    padding: 71px 0px;
+}
+.touch-container{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+.get-title{
+    width: 537px;
+}
+.get-touch-title{
+font-size: 97px;
+font-weight: bold;
+color: #000000;
+}
+legend{
+    font-size: 18px;
+    color: #000000;
+}
+.get-contact input[type="text"], .get-contact input[type="email"], .get-contact textarea{
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin-bottom: 18px;
+    background-color: white;
+    border-radius: 5px;
+    border: .5px solid #D6DDED;
+}
+.privat{
+    padding: 20px 32px;
+     width: 250px;
+}
+/* footer style */
+.footer{
+    max-width: 1440px;
+    height: 428px;
+    background-color: #ffffff;
+     box-shadow:0px 6px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0;
+}
+.footer-manu{
+    display: flex;
+    text-align: center;
+}
+.footer-manu a{
+    text-decoration: none;
+}
